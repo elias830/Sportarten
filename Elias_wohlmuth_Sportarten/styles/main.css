@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c6d5eb;
+    margin: 0;
+    padding: 0;
+    color: #2c3e50;
+    line-height: 1.3;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 0;
+    margin-bottom: 2rem;
+    color: #2c3e50;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 0.5rem;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 12px;
+}
+
+.linkContainer img {
+    margin: 1rem;
+    border-radius: 12px;
+}
+
+.linkContainer figure:hover {
+    transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.15);
+}
+
+
+.linkContainer {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+figure {
+    margin: 0.5rem;
+    text-align: center;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+figcaption {
+    font-size: 1.05rem;
+    margin: 1rem;
+    color: #34495e;
+    line-height: 1.5;
+}
+
+.rules li {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+}
+
+.back-button {
+    display: inline-block;
+    margin: 2rem auto;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 8px;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.back-button:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.impressum {
+    display: inline-block;
+    margin: 2rem auto;
+    padding: 10px 20px;
+    background-color: #9c9c9c;
+    color: white;
+    border-radius: 8px;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+
+}
+
+.impressum:hover {
+    background-color: #757575;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    background-color: white;
+    padding: 1rem 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
